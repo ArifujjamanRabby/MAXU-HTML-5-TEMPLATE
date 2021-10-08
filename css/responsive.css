@@ -1,0 +1,334 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 100%;
+        padding: 0 50px;
+    }
+
+    .header-logo {
+        flex-basis: 11%;
+    }
+
+    .primary-menu {
+        flex-basis: 89%;
+    }
+}
+
+@media (max-width: 1160px) {
+    .f-width {
+        flex-basis: 48%;
+        margin: 0 0 32px;
+    }
+}
+@media (max-width: 1100px) {
+    header {
+        padding: 20px 0;
+    }
+
+    .header-logo a {
+        margin: 0 0 0;
+    }
+
+    .ham-menu {
+        display: none;
+    }
+
+    .ham-btn-one {
+        display: block;
+    }
+
+    #hamberger-menu:checked~.ham-menu {
+        display: block;
+    }
+
+    #hamberger-menu:checked~.ham-btn-one {
+        display: none;
+    }
+
+    #hamberger-menu:checked~.ham-btn-two {
+        display: block;
+    }
+
+    .primary-menu nav {
+        align-items: flex-end;
+        flex-direction: column;
+    }
+
+    .primary-menu nav>ul {
+        flex-direction: column;
+    }
+
+    .primary-menu nav>ul>li>a {
+        margin: 8px 0;
+    }
+
+    .active::after {
+        top: 32px;
+        left: 40px;
+    }
+
+    .header-search {
+        margin: 8px 0 0;
+    }
+
+    .header-btn {
+        margin: 8px 0 0;
+    }
+
+    .primary-menu nav>ul>li>.sub-menu {
+        right: 110%;
+    }
+
+    .primary-menu nav>ul>li:hover>.sub-menu {
+        text-align: left;
+    }
+
+    .member-social ul {
+        height: 180px;
+    }
+    .admin-details {
+        width: 90%;
+    }
+}
+
+@media (max-width: 992px) {
+    .slider-title {
+        flex-basis: 100%;
+    }
+
+    .slider-img {
+        display: none;
+    }
+
+    .slider-content {
+        height: 60vh;
+    }
+
+    .slider-title h2 {
+        font-size: 36px;
+        line-height: 26px;
+        margin: 0 0 20px;
+    }
+
+    .default-title p {
+        margin: 0;
+    }
+
+    .default-title {
+        text-align: center;
+        margin: 0 0 32px;
+    }
+
+    .feature-box {
+        flex-basis: 48%;
+        margin: 0 0 32px;
+    }
+
+    .product-section {
+        padding: 55px 50px;
+    }
+
+    .product-title {
+        flex-basis: 100%;
+        padding: 0 0;
+    }
+
+    .product-img {
+        flex-basis: 100%;
+    }
+
+    .service-section {
+        padding: 32px 0;
+    }
+
+    .project-gellary {
+        padding: 32px 0 0;
+    }
+
+    .team-section {
+        padding: 32px 0;
+    }
+
+    .member-social ul {
+        height: 170px;
+    }
+
+    .counter-section {
+        padding: 32px 0;
+    }
+
+    .clint-testimonial {
+        padding: 32px 0;
+    }
+
+    .pricing-section {
+        padding: 32px 0;
+    }
+
+    .contact-section {
+        padding: 32px 0 0;
+    }
+
+    .contact-media {
+        padding: 32px 16px;
+    }
+
+    .contact-form {
+        flex-basis: 100%;
+        margin: 0 0 32px;
+    }
+
+    .contact-info {
+        flex-basis: 100%;
+    }
+    .blog-section {
+        padding: 32px 0;;
+    }
+
+    .blog-post{
+        flex-basis: 48%;
+    }
+    .blog-post:last-child{
+        display: none;
+    }
+
+}
+
+@media (max-width: 880px) {
+    .container {
+        padding: 0 32px;
+    }
+
+    .service-box {
+        flex-basis: 48%;
+    }
+
+    .gellary-box {
+        flex-basis: 50%;
+    }
+
+    .protfolio-menu {
+        padding: 0 0 32px;
+    }
+
+    .protfolio-menu ul li a {
+        margin: 10px 10px;
+    }
+
+    .about-team {
+        flex-basis: 100%;
+        margin: 0 0 32px;
+    }
+
+    .members-section {
+        flex-basis: 100%;
+    }
+
+    .member-social ul li a {
+        padding: 8px;
+    }
+
+    .count-box {
+        flex-basis: 48%;
+        margin: 0 0 32px;
+    }
+
+    .blog-post{
+        flex-basis: 100%;
+    }
+
+    .price-box {
+        flex-basis: 46%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 20px;
+    }
+    .feature-section {
+        padding: 40px 0;
+    }
+
+    .feature-box {
+        flex-basis: 100%;
+    }
+
+    .product-section {
+        padding: 32px;
+    }
+
+    .gellary-box {
+        flex-basis: 100%;
+    }
+
+    .clint-quots {
+        flex-basis: 100%;
+        background-color: #f6fbff;
+        padding: 38px 25px;
+    }
+    .blog-post:nth-child(2){
+        display: none;
+    }
+    .footer-bottom-content p {
+        flex-basis: 100%;
+        text-align: center;
+        margin: 0 0 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .product-section {
+        padding: 16px;
+    }
+
+    .service-box {
+        flex-basis: 100%;
+    }
+
+    .member-info {
+        flex-basis: 100%;
+        ;
+    }
+
+    .member-social ul {
+        height: 200px;
+    }
+
+    .member-social ul li a {
+        padding: 16px;
+    }
+
+    .count-box {
+        flex-basis: 100%;
+    }
+
+    .price-box {
+        flex-basis: 100%;
+    }
+    .default-form {
+        flex-basis: 100%;
+    }
+    .f-width {
+        flex-basis: 100%;
+    }
+    .footer-bottom-content ul {
+        flex-basis: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 465px) {
+    .slider-title h2 {
+        font-size: 24px;
+        line-height: 26px;
+        margin: 0 0 16px;
+    }
+
+    .slider-title p {
+        line-height: 20px;
+    }
+}
